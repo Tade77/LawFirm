@@ -1,13 +1,15 @@
 import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+
 import "./App.css";
 import NavBar from "./components/Molecules/Nav/NavBar";
-import PageLayout from "./components/Templates/Layput/PageLayout";
+import Home from "./Pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <PageLayout />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   );
 }
 

@@ -1,13 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Icons from "../Icons/Icons";
-const NavBar = () => {
-  console.log(Icons);
-  const activeLink = ({ isActive }) => {
-    return {
-      color: isActive ? "blue" : "black",
-    };
-  };
+
+const NavFooter = () => {
   const navItems = [
     {
       id: 1,
@@ -30,17 +24,15 @@ const NavBar = () => {
       path: "/contact",
     },
   ];
-
   return (
-    <div className=" flex justify-end space-x-6 items-center p-8 text-[16px]">
+    <div className="space-x-6  text-[13.44px] font-sans text-[#1c1b1b]">
       {navItems.map((navItem, id) => (
-        <NavLink to={navItem.path} key={id} style={activeLink}>
+        <NavLink to={navItem.path} key={id}>
           {navItem.name}
         </NavLink>
       ))}
-      <Icons />
     </div>
   );
 };
 
-export default NavBar;
+export default NavFooter;
