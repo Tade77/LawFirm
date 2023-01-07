@@ -1,4 +1,6 @@
 import React from "react";
+import Location from "../components/Molecules/Address/Location";
+import Contact from "../components/Molecules/Contact";
 import About from "../components/Organisms/About";
 import OfferPage from "../components/Organisms/OfferPage";
 import TopDesc from "../components/Organisms/TopPage/Index";
@@ -10,6 +12,8 @@ const Home = () => {
       <TopDesc />
       <OfferPage />
       <About />
+      <Contact />
+      <Location />
     </PageLayout>
   );
 };

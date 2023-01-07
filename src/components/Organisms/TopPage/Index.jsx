@@ -13,7 +13,7 @@ const TopDesc = () => {
           <br /> for clients in all aspects of corporate and
           <br /> commercial matters, including corporate governance
         </p>
-        <Button label="What we offer" />
+        <Button buttonStyle="offer" label="What we offer" />
       </div>
 
       <h1 className=" text-[#252525] text-center text-[35px] my-7 font-serif font-extrabold">
