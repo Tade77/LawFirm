@@ -4,7 +4,7 @@ import { infos } from "../Atoms/Offer";
 
 const OfferPage = () => {
   return (
-    <div className="flex justify-evenly">
+    <div className="flex justify-evenly mx-auto  align-middle">
       {infos.map((info, id) => (
         <div key={id} className="flex flex-col ">
           <img
