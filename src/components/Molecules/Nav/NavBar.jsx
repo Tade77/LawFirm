@@ -17,7 +17,7 @@ const NavBar = () => {
     {
       id: 2,
       name: "WHAT WE OFFER",
-      path: "/what we offer",
+      path: "/what-we-offer",
     },
     {
       id: 3,
