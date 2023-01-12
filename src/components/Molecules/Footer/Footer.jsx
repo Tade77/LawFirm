@@ -1,5 +1,5 @@
 import React from "react";
-import NavFooter from "../Nav/NavList";
+import NavFooter from "../NavFooter/NavList";
 
 const Footer = () => {
   return (

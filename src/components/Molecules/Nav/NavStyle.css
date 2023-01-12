@@ -1,0 +1,35 @@
+.nav--wrapper {
+  @apply flex justify-end mt-3 pt-3 space-x-6  text-[16px];
+}
+.toggle--btn {
+  /* @apply flex; */
+}
+
+@media screen and (max-width: 1024px) {
+  .nav--wrapper {
+    display: none;
+  }
+  .toggle--btn {
+    @apply flex flex-col;
+  }
+  .mobileView_links {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 75px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+  .mobileView_links > a {
+    border: 1px solid red;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+    padding: 25px;
+    width: 50px;
+    transition: all 0.5s ease;
+  }
+}

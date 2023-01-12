@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Button from "../../Atoms/Button/Button";
 import Icons from "../Icons/Icons";
+import MenuBtn from "../../Atoms/MenuBtn";
+import CancelBtn from "../../Atoms/CancelBtn";
+import "./NavStyle.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
 const NavBar = () => {
-  console.log(Icons);
+  const [mobileView, setMobileView] = useState(false);
   const activeLink = ({ isActive }) => {
     return {
       color: isActive ? "blue" : "black",
@@ -32,13 +38,25 @@ const NavBar = () => {
   ];
 
   return (
-    <div className=" flex justify-end space-x-6 items-center p-8 text-[16px]">
-      {navItems.map((navItem, id) => (
-        <NavLink to={navItem.path} key={id} style={activeLink}>
-          {navItem.name}
-        </NavLink>
-      ))}
-      <Icons />
+    <div>
+      <nav
+        className={mobileView ? "mobileView_links" : "nav--wrapper"}
+        onClick={() => setMobileView(false)}
+      >
+        <AnchorLink href="#home">HOME</AnchorLink>
+        <AnchorLink href="#what-we-offer">WHAT WE OFFER</AnchorLink>
+        <AnchorLink href="#about">ABOUT US</AnchorLink>
+        <AnchorLink href="#contact">CONTACT</AnchorLink>
+        <Icons />
+      </nav>
+      <div>
+        <Button
+          buttonStyle="toggle--btn"
+          handleClick={() => setMobileView(true)}
+        >
+          {mobileView ? <CancelBtn /> : <MenuBtn />}
+        </Button>
+      </div>
     </div>
   );
 };

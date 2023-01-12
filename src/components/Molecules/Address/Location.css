@@ -1,0 +1,9 @@
+.location--wrapper {
+  @apply flex flex-row mx-auto justify-around mb-12;
+}
+
+@media screen and (max-width: 1024px) {
+  .location--wrapper {
+    @apply flex flex-col text-center;
+  }
+}

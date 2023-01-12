@@ -1,0 +1,21 @@
+.offer--wrapper {
+  @apply flex justify-evenly mx-auto  align-middle;
+}
+.offer--info {
+  @apply flex flex-col;
+}
+.imgs {
+  @apply w-[220px] h-[201px] rounded-[5px];
+}
+.article {
+  @apply w-[350px] h-[270px] text-[#252525];
+}
+.title {
+  @apply text-[28px] my-[16px];
+}
+
+@media screen and (max-width: 1024px) {
+  .offer--wrapper {
+    @apply flex flex-col items-center;
+  }
+}

@@ -11,7 +11,6 @@ body {
   font-family: "Merriweather Sans", sans-serif;
 }
 body {
-  height: auto;
-  width: 100%;
+  @apply overflow-x-hidden mx-auto;
 }
 @tailwind utilities;

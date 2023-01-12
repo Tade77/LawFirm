@@ -1,8 +1,9 @@
 import React from "react";
+import "./Location.css";
 
 const Location = () => {
   return (
-    <div className="flex flex-row mx-auto justify-around mb-12">
+    <div className="location--wrapper">
       <aside>
         <h1 className="text-[30px] font-extrabold font-serif">
           Building Address

@@ -2,10 +2,10 @@ import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
-import Contact from "./components/Molecules/Contact";
+import Contact from "./components/Molecules/Contact/Contact";
 import NavBar from "./components/Molecules/Nav/NavBar";
-import About from "./components/Organisms/About";
-import OfferPage from "./components/Organisms/OfferPage";
+import About from "./components/Organisms/About/About";
+import OfferPage from "./components/Organisms/OfferPg/OfferPage";
 import Home from "./Pages/Home";
 
 function App() {

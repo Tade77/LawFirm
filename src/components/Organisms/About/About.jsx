@@ -1,13 +1,12 @@
 import React from "react";
+import "./About.css";
 
 const About = () => {
   return (
-    <div className=" bg-slate-50 my-40 ">
-      <article className="w-[1150px] h-[850] flex flex-row space-x-10 mx-auto py-24  ">
-        <div className=" space-y-6">
-          <h1 className=" text-center my-7 text-[35px] font-extrabold font-serif">
-            About Us
-          </h1>
+    <div id="about" className="about--wrapper">
+      <article className="article--wrapper">
+        <div className="articles">
+          <h1 className="about--header">About Us</h1>
           <p>
             Dignity is a law firm based in Nigeria. The firm was established in
             2001 and specializes in corporate
@@ -36,11 +35,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <img
-            src="/public/Frame4.webp"
-            className=" h-[750px] w-[1500px] rounded-[10px]"
-            alt=""
-          />
+          <img src="/Frame4.webp" className="law--img" alt="" />
         </div>
       </article>
     </div>

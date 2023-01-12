@@ -1,8 +1,9 @@
 import React from "react";
 
-const Button = ({ label, buttonStyle }) => {
+const Button = ({ label, handleClick, buttonStyle }) => {
   return (
     <button
+      onClick={handleClick}
       className={
         buttonStyle === "contact--btn"
           ? "bg-[#2b4ff1] px-6 py-2 text-[#ffffff]"
@@ -17,4 +18,3 @@ const Button = ({ label, buttonStyle }) => {
 };
 
 export default Button;
-// bg-[#2b4ff1] px-8 py-4 rounded

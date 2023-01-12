@@ -1,0 +1,24 @@
+.contact--header {
+  @apply text-[#252525] text-[35px] font-extrabold font-serif text-center;
+}
+.input--wrapper {
+  @apply flex justify-center align-middle gap-10;
+}
+.text--area {
+  @apply w-[1090.31px] h-[94.75px] bg-[#F2F2F2] p-4;
+}
+.btn {
+  @apply flex justify-center mb-10;
+}
+.form {
+  @apply flex flex-col justify-center items-center mb-4 gap-10;
+}
+
+@media screen and (max-width: 1024px) {
+  .input--wrapper {
+    @apply flex flex-col justify-center items-center;
+  }
+  .text--area {
+    @apply w-[335px] p-2;
+  }
+}
