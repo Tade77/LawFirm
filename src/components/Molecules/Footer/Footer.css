@@ -1,0 +1,26 @@
+.footer--wrapper {
+  @apply flex justify-between bg-slate-50 align-middle p-8;
+}
+.ack {
+  @apply text-[#1c1b1b] text-[13.44px];
+}
+.foo {
+  @apply text-[17.64px] text-[#1c1b1b] font-serif;
+}
+.nav--foo {
+  @apply flex;
+}
+@media screen and (max-width: 1024px) {
+  .nav--foo {
+    display: none;
+  }
+  .foo {
+    @apply text-center;
+  }
+  .copy {
+    @apply text-center;
+  }
+  .site {
+    @apply text-center;
+  }
+}

@@ -25,7 +25,7 @@ const NavFooter = () => {
     },
   ];
   return (
-    <div className="space-x-6  text-[23.44px] font-sans text-[#1c1b1b]">
+    <div className="space-x-6  text-[18.44px]  font-sans text-[#1c1b1b]">
       {navItems.map((navItem, id) => (
         <NavLink to={navItem.path} key={id}>
           {navItem.name}
