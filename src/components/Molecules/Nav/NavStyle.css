@@ -1,6 +1,7 @@
 .nav--wrapper {
   @apply flex justify-end mt-3 pt-3 space-x-6  text-[16px];
 }
+
 .toggle--btn {
   /* @apply flex; */
 }

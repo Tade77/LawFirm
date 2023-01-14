@@ -43,10 +43,14 @@ const NavBar = () => {
         className={mobileView ? "mobileView_links" : "nav--wrapper"}
         onClick={() => setMobileView(false)}
       >
-        <AnchorLink href="#home">HOME</AnchorLink>
-        <AnchorLink href="#what-we-offer">WHAT WE OFFER</AnchorLink>
+        {navItems.map((navItem, id) => (
+          <AnchorLink key={id} href={navItem.path}>
+            {navItem.name}
+          </AnchorLink>
+        ))}
+        {/* <AnchorLink href="#what-we-offer">WHAT WE OFFER</AnchorLink>
         <AnchorLink href="#about">ABOUT US</AnchorLink>
-        <AnchorLink href="#contact">CONTACT</AnchorLink>
+        <AnchorLink href="#contact">CONTACT</AnchorLink> */}
         <Icons />
       </nav>
       <div>

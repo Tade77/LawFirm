@@ -1,5 +1,5 @@
 .bg-img {
-  @apply relative h-[600px] w-[100%] overflow-hidden;
+  @apply relative h-[500px] w-[100%] overflow-hidden;
 }
 img {
   @apply w-[100%] h-auto overflow-hidden;
