@@ -2,7 +2,7 @@
   @apply bg-slate-50 my-40;
 }
 .article--wrapper {
-  @apply w-[1150px] h-[850] flex flex-row space-x-10 mx-auto py-24;
+  @apply w-[1150px] h-[700px] flex flex-row space-x-10 mx-auto pt-28;
 }
 .articles {
   @apply space-y-6;
@@ -10,18 +10,27 @@
 .about--header {
   @apply text-center my-7 text-[35px] font-extrabold font-serif;
 }
+.lawyer--img {
+  @apply relative h-[700px] w-[100%] overflow-hidden;
+}
 .law--img {
-  @apply h-[750px] w-[1500px] rounded-[10px];
+  @apply w-[100%] h-auto overflow-hidden;
 }
 
 @media screen and (max-width: 1024px) {
   .article--wrapper {
-    @apply flex flex-col m-4 p-2 w-auto py-16;
+    @apply flex flex-col m-4 p-2 w-auto;
   }
   .articles {
-    @apply w-[23rem] h-[45rem];
+    @apply w-[23rem] h-[45rem] mb-10;
+  }
+  .lawyer--img {
+    @apply overflow-visible pr-14;
   }
   .law--img {
     @apply h-[300px];
+  }
+  .about--wrapper {
+    @apply border pb-[200px];
   }
 }

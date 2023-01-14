@@ -13,9 +13,15 @@
 .title {
   @apply text-[28px] my-[16px];
 }
+.offer--title {
+  @apply text-[#252525] text-center text-[35px] my-10 font-serif font-extrabold;
+}
 
 @media screen and (max-width: 1024px) {
   .offer--wrapper {
     @apply flex flex-col items-center;
+  }
+  .offer--title {
+    @apply text-[30px] -mt-32;
   }
 }

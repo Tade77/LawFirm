@@ -4,7 +4,9 @@ import "./TopDescStyle.css";
 const TopDesc = () => {
   return (
     <div id="home">
-      <img src="/img.jpg" alt="law" className="bg-img" />
+      <div className="bg-img">
+        <img src="/img.jpg" alt="lawyers" />
+      </div>
       <div className="page--desc">
         <h1 className="header--text">A Boutique Law Firm</h1>
         <p className="txt">
@@ -15,10 +17,6 @@ const TopDesc = () => {
         </p>
         <Button buttonStyle="offer" label="What we offer" />
       </div>
-
-      <h1 className="offer--title">
-        What we offer
-      </h1>
     </div>
   );
 };

@@ -14,7 +14,10 @@
   .nav--foo {
     display: none;
   }
-  .foo {
+  .ack {
+    @apply text-center ml-14;
+  }
+  /* .foo {
     @apply text-center;
   }
   .copy {
@@ -22,5 +25,5 @@
   }
   .site {
     @apply text-center;
-  }
+  } */
 }
