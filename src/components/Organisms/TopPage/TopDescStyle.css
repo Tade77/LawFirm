@@ -16,12 +16,12 @@ img {
 
 @media screen and (max-width: 1024px) {
   .page--desc {
-    @apply absolute top-20 left-20 space-y-2;
+    @apply absolute top-20 left-14 space-y-2;
   }
   .header--text {
     @apply text-[30px];
   }
   .txt {
-    @apply text-[16px];
+    @apply text-[14.5px];
   }
 }

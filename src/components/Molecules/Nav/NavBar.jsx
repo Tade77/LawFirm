@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 import Button from "../../Atoms/Button/Button";
 import Icons from "../Icons/Icons";
 import MenuBtn from "../../Atoms/MenuBtn";
@@ -48,16 +47,12 @@ const NavBar = () => {
             {navItem.name}
           </AnchorLink>
         ))}
-        {/* <AnchorLink href="#what-we-offer">WHAT WE OFFER</AnchorLink>
-        <AnchorLink href="#about">ABOUT US</AnchorLink>
-        <AnchorLink href="#contact">CONTACT</AnchorLink> */}
-        <Icons />
+        <div className={mobileView ? "icons" : ""}>
+          <Icons />
+        </div>
       </nav>
-      <div>
-        <Button
-          buttonStyle="toggle--btn"
-          handleClick={() => setMobileView(true)}
-        >
+      <div className="toggle--btn">
+        <Button buttonStyle="toggle" handleClick={() => setMobileView(true)}>
           {mobileView ? <CancelBtn /> : <MenuBtn />}
         </Button>
       </div>

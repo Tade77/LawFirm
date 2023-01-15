@@ -5,7 +5,7 @@
   @apply flex justify-center align-middle gap-10;
 }
 .text--area {
-  @apply w-[1090.31px] h-[94.75px] bg-[#F2F2F2] p-4;
+  @apply w-[1090.31px] h-[94.75px] bg-[#ffffff] border border-gray-400 p-4;
 }
 .btn {
   @apply flex justify-center mb-10;
@@ -19,6 +19,6 @@
     @apply flex flex-col justify-center items-center;
   }
   .text--area {
-    @apply w-[335px] p-2;
+    @apply w-[335px] p-4;
   }
 }

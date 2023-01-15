@@ -5,7 +5,7 @@
   @apply flex flex-col;
 }
 .imgs {
-  @apply w-[220px] h-[201px] rounded-[5px];
+  @apply w-[387px] h-[204px] rounded-[10px];
 }
 .article {
   @apply w-[350px] h-[270px] text-[#252525];

@@ -24,15 +24,6 @@ const About = () => {
             thereby creating conducive legal environments for our
             <br /> clients to achieve their goals.
           </p>
-          {/* <p>
-            Our mission is to establish a world-class, full-service Nigerian law
-            firm distinguished by its
-            <br /> premium service. We incorporate a rich blend of traditional
-            legal practice with the dynamism
-            <br /> required to satisfy the constantly evolving dynamism of
-            business in our result-driven
-            <br /> professional services.
-          </p> */}
         </div>
         <div className="lawyer--img">
           <img src="/Frame4.webp" className="law--img" alt="" />
