@@ -1,8 +1,17 @@
 .offer--wrapper {
-  @apply flex justify-evenly mx-auto  align-middle;
+  @apply flex justify-evenly mx-auto  align-middle mt-5;
 }
 .offer--info {
   @apply flex flex-col;
+}
+.bt--line2 {
+  height: 3px;
+  width: 50px;
+  background-color: blue;
+  position: absolute;
+  left: 40rem;
+  top: 42rem;
+  /* margin-left: 1rem; */
 }
 .imgs {
   @apply w-[387px] h-[204px] rounded-[10px];
@@ -23,5 +32,8 @@
   }
   .offer--title {
     @apply text-[30px] -mt-32;
+  }
+  .bt--line2 {
+    @apply left-[12rem] top-[30.5rem];
   }
 }

@@ -1,24 +1,40 @@
 .contact--header {
-  @apply text-[#252525] text-[35px] font-extrabold font-serif text-center;
+  @apply text-[#252525] text-[35px] font-extrabold font-serif text-center m-6;
+}
+.contact {
+  @apply relative;
+}
+.bt--line3 {
+  height: 3px;
+  width: 50px;
+  background-color: blue;
+  position: absolute;
+  left: 40.6rem;
 }
 .input--wrapper {
-  @apply flex justify-center align-middle gap-10;
+  @apply flex justify-center align-middle gap-10 m-10;
 }
 .text--area {
-  @apply w-[1090.31px] h-[94.75px] bg-[#ffffff] border border-gray-400 p-4;
+  @apply w-[1090.31px] h-[94.75px]  bg-[#ffffff] border border-gray-400 p-4;
 }
 .btn {
   @apply flex justify-center mb-10;
 }
 .form {
-  @apply flex flex-col justify-center items-center mb-4 gap-10;
+  @apply flex flex-col justify-center items-center mb-4 gap-1;
 }
 
 @media screen and (max-width: 1024px) {
   .input--wrapper {
-    @apply flex flex-col justify-center items-center;
+    @apply flex flex-col justify-center items-center m-6;
+  }
+  .contact--header {
+    @apply m-3;
   }
   .text--area {
     @apply w-[335px] p-4;
+  }
+  .bt--line3 {
+    @apply left-[11.6rem];
   }
 }

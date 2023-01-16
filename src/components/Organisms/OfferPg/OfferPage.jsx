@@ -5,7 +5,10 @@ import "./OfferStyle.css";
 const OfferPage = () => {
   return (
     <div>
-      <h1 className="offer--title">What We Offer</h1>
+      <div className="offer-line">
+        <h1 className="offer--title">What We Offer</h1>
+        <p className="bt--line2"></p>
+      </div>
       <div id="what-we-offer" className="offer--wrapper">
         {infos.map((info, id) => (
           <div key={id} className="offer--info">

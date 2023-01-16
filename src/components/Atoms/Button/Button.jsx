@@ -10,7 +10,7 @@ const Button = ({ label, handleClick, buttonStyle }) => {
           : buttonStyle === "offer"
           ? "bg-[#2b4ff1] px-8 py-4"
           : buttonStyle === "toggle"
-          ? "border w-5 h-5 bg-black cursor-pointer"
+          ? "border w-8 h-8 cursor-pointer"
           : ""
       }
     >

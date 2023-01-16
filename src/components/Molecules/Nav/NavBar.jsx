@@ -43,18 +43,20 @@ const NavBar = () => {
         onClick={() => setMobileView(false)}
       >
         {navItems.map((navItem, id) => (
-          <AnchorLink key={id} href={navItem.path}>
-            {navItem.name}
-          </AnchorLink>
+          <div>
+            <AnchorLink key={id} href={navItem.path}>
+              {navItem.name}
+            </AnchorLink>
+          </div>
         ))}
-        <div className={mobileView ? "icons" : ""}>
+        <div className={mobileView ? "icons" : "icons"}>
           <Icons />
         </div>
       </nav>
-      <div className="toggle--btn">
-        <Button buttonStyle="toggle" handleClick={() => setMobileView(true)}>
-          {mobileView ? <CancelBtn /> : <MenuBtn />}
-        </Button>
+      <div className="toggle--btn" onClick={() => setMobileView(true)}>
+        {/* <Button buttonStyle="toggle"> */}
+        {mobileView ? <CancelBtn /> : <MenuBtn />}
+        {/* </Button> */}
       </div>
     </div>
   );

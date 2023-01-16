@@ -7,6 +7,7 @@ const About = () => {
       <article className="article--wrapper">
         <div className="articles">
           <h1 className="about--header">About Us</h1>
+          <p className="bt--line"></p>
           <p>
             Dignity is a law firm based in Nigeria. The firm was established in
             2001 and specializes in corporate

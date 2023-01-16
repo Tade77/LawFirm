@@ -8,6 +8,7 @@ const Contact = () => {
   return (
     <div id="contact" className="mx-auto ">
       <h1 className="contact--header">Contact</h1>
+      <p className="bt--line3"></p>
       <div className="form">
         <div className="input--wrapper">
           <Input inputStyle="inputs" name="text" placeholder="Name" />
