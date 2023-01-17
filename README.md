@@ -4,17 +4,11 @@
   - [Description](#Description)
   - [Links](#links)
 - [Technology](#Technology)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 # Title
 
 ### Lawfirm App
-
-## Description
 
 ### About the App
 
@@ -24,32 +18,37 @@
 
 ### Links
 
-- Solution URL: (https://lawfirmapp.netlify.app)
-- Live Site URL: (https://www.site123.com/templates/preview/4087052)
+- [Demo](https://lawfirmapp.netlify.app)
+- [Inspiration] (https://www.site123.com/templates/preview/4087052)
 
-### Technology
+## Getting started
 
-#### This project is built the following technologies
+- This project can be cloned or download this repository ,run the `yarn create vite` with favourite code editor.
+
+### Technology/Framework used
 
 - ReactJs
 - Tailwind CSS
 - React Router
 - Atomic Design file Structures
 
-### What I learned
-
-- In this project i was able to learn the use of:
-
-* react-icons
-* CSS to write text on a background image
-* CSS fill property
-
-### Continued-development
-
-I have learned greatly in this project. However, i will like improve more on the usage of react libraries. I also need to work and learn more on animation and responsiveness.
-
 ### Useful-resources
 
 - react-icons
 - BullDogJob
 - site123
+- Google
+- Stackoverflow
+
+## Contact
+
+You can reach me at <tadeportfolio.netlify.app>
+<adekunletaofeeq@gmail.com>
+
+## Additional info
+
+- One of the projects of code village Advance section.
+
+## Author
+
+### _*Adekeye Taofeeq*_

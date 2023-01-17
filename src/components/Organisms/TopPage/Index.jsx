@@ -15,7 +15,7 @@ const TopDesc = () => {
           <br /> for clients in all aspects of corporate and
           <br /> commercial matters, including corporate governance
         </p>
-        <Button buttonStyle="offer" label="What we offer" />
+        <button className="offer--btn">What we offer</button>
       </div>
     </div>
   );

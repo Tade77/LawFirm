@@ -8,7 +8,7 @@ const Button = ({ label, handleClick, buttonStyle }) => {
         buttonStyle === "contact--btn"
           ? "bg-[#2b4ff1] px-6 py-2 text-[#ffffff]"
           : buttonStyle === "offer"
-          ? "bg-[#2b4ff1] px-8 py-4"
+          ? "bg-[#2b4ff1] px-8 py-4 overflow-hidden"
           : buttonStyle === "toggle"
           ? "border w-8 h-8 cursor-pointer"
           : ""

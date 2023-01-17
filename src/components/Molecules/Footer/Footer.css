@@ -1,14 +1,18 @@
 .footer--wrapper {
-  @apply flex justify-between bg-slate-50 align-middle p-8;
+  @apply flex justify-between px-20 bg-slate-50 align-middle p-8;
 }
 .ack {
-  @apply text-[#1c1b1b] text-[13.44px];
+  @apply text-[#1c1b1b];
 }
 .foo {
   @apply text-[17.64px] text-[#1c1b1b] font-serif;
 }
 .nav--foo {
   @apply flex;
+}
+.copy,
+.site {
+  @apply text-[11.76px];
 }
 @media screen and (max-width: 1024px) {
   .nav--foo {

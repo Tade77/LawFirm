@@ -1,5 +1,5 @@
 .nav--wrapper {
-  @apply flex justify-end mt-1 space-x-6  text-[16px] relative;
+  @apply flex justify-end mt-1 space-x-6 mx-6 text-[16px] relative;
 }
 
 .toggle--btn {

@@ -1,17 +1,23 @@
+#home {
+  /* @apply */
+}
 .bg-img {
-  @apply relative h-[500px] w-[100%] overflow-hidden;
+  @apply h-[500px] w-[100%] overflow-hidden;
 }
 img {
   @apply w-[100%] h-auto overflow-hidden;
 }
 .page--desc {
-  @apply text-white text-[20px] absolute top-40 bottom-0 left-40 right-0  space-y-4;
+  @apply text-white text-[20px] absolute top-32 bottom-0 left-40 right-0;
 }
 .header--text {
   @apply text-[52px] font-extrabold;
 }
 .txt {
-  @apply text-[18px] py-6;
+  @apply text-[18px] my-9;
+}
+.offer--btn {
+  @apply bg-blue-600 px-[30px] py-[15px] rounded-[5px] absolute overflow-hidden;
 }
 
 @media screen and (max-width: 1024px) {

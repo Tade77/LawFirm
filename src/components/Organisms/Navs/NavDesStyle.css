@@ -1,5 +1,5 @@
 .navDesc {
-  @apply flex justify-between space-x-6 items-center p-2 bg-slate-50 shadow-xl;
+  @apply flex fixed w-full justify-between space-x-6 items-center p-2 bg-[#ffffff] shadow-xl;
 }
 @media screen and (max-width: 1024px) {
   .navDesc {

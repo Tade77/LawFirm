@@ -5,26 +5,24 @@
   @apply w-[1150px] h-[700px] flex flex-row space-x-10 mx-auto pt-24;
 }
 .articles {
-  @apply space-y-8;
+  @apply text-center;
 }
 .bt--line {
   height: 3px;
   width: 50px;
   background-color: blue;
   margin-left: 13rem;
+  margin-bottom: 2rem;
 }
-/* .about--header::before {
-  position: absolute;
-  content: "";
-} */
+
 .about--header {
-  @apply text-center my-7 text-[35px] font-extrabold font-serif;
+  @apply text-center my-4 text-[35px] font-extrabold font-serif;
 }
 .lawyer--img {
-  @apply relative h-[700px] w-[100%] overflow-hidden;
+  @apply h-[700px] w-[100%];
 }
 .law--img {
-  @apply w-[100%] h-auto overflow-hidden;
+  @apply w-[100%] h-auto;
 }
 
 @media screen and (max-width: 1024px) {
