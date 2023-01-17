@@ -1,0 +1,10 @@
+.navDesc {
+  @apply flex justify-between space-x-6 items-center p-2 bg-slate-50 shadow-xl;
+}
+@media screen and (max-width: 1024px) {
+  .navDesc {
+    /* position: unset;
+    top: 160px;
+    left: 20px; */
+  }
+}
