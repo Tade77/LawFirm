@@ -1,14 +1,16 @@
 ## Table of contents
 
 - [Title](#title)
-  - [Description](#Description)
+  - [About the App](#About-the-App)
   - [Links](#links)
-- [Technology](#Technology)
-  - [Useful resources](#useful-resources)
+- [Getting started](#Getting-started)
+- [Technology/Framework used](#Technology/Framework-used)
+- [Useful resources](#useful-resources)
+- [Contact](#Contact)
+- [Additional info](#Additional-info)
+- [Author](#Author)
 
-# Title
-
-### Lawfirm App
+# Lawfirm App
 
 ### About the App
 
@@ -42,8 +44,7 @@
 
 ## Contact
 
-You can reach me at <tadeportfolio.netlify.app>
-<adekunletaofeeq@gmail.com>
+-You can reach me at <adekunletaofeeq@gmail.com>
 
 ## Additional info
 
