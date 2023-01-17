@@ -20,7 +20,7 @@
 
 ### Links
 
-- [Demo](https://lawfirmapp.netlify.app)
+- [Project url](https://lawfirmapp.netlify.app/)
 - [Inspiration] (https://www.site123.com/templates/preview/4087052)
 
 ## Getting started
