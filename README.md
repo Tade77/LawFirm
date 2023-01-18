@@ -20,8 +20,8 @@
 
 ### Links
 
-- [Project-url](https://lawfirmapp.netlify.app){:target="\_blank" rel="noopener"}
-- [Inspiration] (https://www.site123.com/templates/preview/4087052){:target="_blank" rel="noopener"}
+- [Project url](<a https://lawfirmapp.netlify.app/ target="\_blank">lawfirm</a>)
+- [Inspiration] (<a https://www.site123.com/templates/preview/4087052 target="\_blank"></a>)
 
 ## Getting started
 
