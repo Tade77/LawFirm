@@ -20,7 +20,6 @@
 
 ### Links
 
-  <base target="_blank">
 - [Project-url](https://lawfirmapp.netlify.app)
 - [Inspiration](https://www.site123.com/templates/preview/4087052)
 
