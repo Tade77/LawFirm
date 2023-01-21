@@ -31,9 +31,12 @@
     @apply flex flex-col items-center;
   }
   .offer--title {
-    @apply text-[30px] -mt-32;
+    @apply text-[30px] -mt-40;
   }
   .bt--line2 {
-    @apply left-[12rem] top-[30.5rem];
+    @apply left-[10rem] top-[24.9rem];
+  }
+  .article {
+    @apply ml-3;
   }
 }

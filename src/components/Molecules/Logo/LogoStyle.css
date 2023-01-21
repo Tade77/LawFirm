@@ -1,0 +1,18 @@
+.logo--wrapper {
+  @apply flex align-middle flex-row-reverse space-x-4;
+}
+.logo--desc {
+  @apply text-[28px] text-[#1c1b1b] ml-4 tracking-widest;
+}
+.logo {
+  @apply w-[45px] h-[45px] fill-blue-700;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo--desc {
+    @apply text-[24px] ml-2 tracking-wider;
+  }
+  .logo {
+    @apply w-[30px] h-[30px];
+  }
+}

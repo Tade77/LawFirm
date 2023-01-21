@@ -5,7 +5,7 @@
   @apply h-[500px] w-[100%] overflow-hidden;
 }
 img {
-  @apply w-[100%] h-auto overflow-hidden;
+  @apply w-[100%] h-auto;
 }
 .page--desc {
   @apply text-white text-[20px] absolute top-32 bottom-0 left-40 right-0;
@@ -22,12 +22,15 @@ img {
 
 @media screen and (max-width: 1024px) {
   .page--desc {
-    @apply absolute top-28 left-14 space-y-2;
+    @apply absolute top-14 left-14 space-y-2;
   }
   .header--text {
-    @apply text-[30px];
+    @apply text-[24px];
   }
   .txt {
-    @apply text-[14.5px];
+    @apply text-[13.5px];
+  }
+  .offer--btn {
+    @apply px-[13px] py-[7px];
   }
 }

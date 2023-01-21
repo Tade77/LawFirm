@@ -5,7 +5,7 @@
   @apply w-[1150px] h-[700px] flex flex-row space-x-10 mx-auto pt-24;
 }
 .articles {
-  @apply text-center;
+  @apply text-center -ml-5;
 }
 .bt--line {
   height: 3px;

@@ -35,6 +35,6 @@
     @apply w-[335px] p-4;
   }
   .bt--line3 {
-    @apply left-[11.6rem];
+    @apply left-[10rem];
   }
 }

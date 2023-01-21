@@ -19,7 +19,7 @@
     display: none;
   }
   .ack {
-    @apply text-center ml-14;
+    @apply text-center ml-6;
   }
   /* .foo {
     @apply text-center;
